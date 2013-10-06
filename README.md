@@ -16,7 +16,10 @@ How To Use
 Create a virtual machine and setup Movable Type Open Source
 
     > git clone https://github.com/ysasaki/cookbook-movabletype-opensource-standalone mtos
+    > cd mtos
     > vagrant up --provision
+    > echo '33.33.33.10 mt.example.com >> /etc/hosts
+    > open http://mt.example.com/cgi-bin/mt/mt.cgi
 
 
 SSH Login
